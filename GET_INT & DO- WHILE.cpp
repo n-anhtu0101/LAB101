@@ -35,7 +35,7 @@ int main(int argc, char** argv) {
         printf(""); //THREADS
         int size = getInt("Please enter a number you want to check: ", INT_MIN, INT_MAX);
 
-        //input m?ng v?i kích c? size
+        //INPUT ARRAY WITH SIZE "size"
         int a[size];
         for (int i = 0; i < size; i++) {
             printf("a[%d] = ", i);
